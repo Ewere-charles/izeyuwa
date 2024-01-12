@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #223;
+}
+.hero-cat{
+    background-image: url(../assets/pexels-photo-11774154.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 100px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.hero-cat-text{
+    height: auto;
+    width: 100%;
+    padding: 100px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-cat-text h1{
+    font-size: 50px;
+    color: white;
+}
+
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    position: relative;
+}
+.gallery-container h2{
+    color: rgb(255, 176, 98);
+    font-size: 45px;
+}
+.gallery{
+    column-count: 4;
+    column-gap: 10px;
+    width: 65%;
+    height: auto;
+    padding: 50px 0 50px 0;
+}
+.gallery-item{
+    width: auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.label{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    z-index: 5;
+    transition: all 1s ease;
+}
+.download{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 10px 10px;
+    top: 0;
+    left: 0;
+}
+.download-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.label:hover .download{
+    display: flex;
+}
+.download-btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 128, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: height .5s ease;
+}
+.download-btn:hover{
+    height: 40px ;
+}
+.user{
+    width: 30px;
+    height: 30px;
+    color: white;
+    background: #223;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.content{
+    width: 100%;
+    position: relative;
+}
+.content > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: solid white 2px;
+}
+.input,
+.label input{
+    display: none;
+}
+.input:checked + .label{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.541);
+    backdrop-filter: blur(5px);
+}
+.input:checked ~ .label .content{
+    width: 450px;
+}
+.download-close{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #223;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.download-close:hover{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    color: #223;
+    border: solid #223 1px;
+}
+.close{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+}
+.input:checked ~ .label .download-close{
+    opacity: 1;
+}
+.reach-us{
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+}
+.reach-us img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+}

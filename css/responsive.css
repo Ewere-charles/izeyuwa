@@ -1,0 +1,349 @@
+@media (max-width:991px){
+  .hero-text-box{
+    width: 50%;
+    height: 230px;
+    margin-left: 50px;
+  }
+
+  .hero-text-box h1{
+    font-size: 40px;
+}
+
+.service{
+  height: auto;
+  padding: 100px 0 100px 0;
+}
+  .service-box{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .service-text{
+    width: 80%;
+    height:auto;
+    align-items: center;
+    text-align: center;
+  }
+  .cube-container{
+    display: none;
+  }
+  .offer{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .offer-box{
+    width: 20%;
+    height: 100%;
+  }
+  .offer-box img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .description{
+    padding-left: 30px;
+  }
+  .team{
+    padding: 10px 0 50px 0;
+  }
+  .team-box{
+    height: 400px;
+  }
+.testimonia{
+  display: none;
+}
+  .testimonia-2{
+    height: 650px !important;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    padding: 0px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #212529f1;
+    backdrop-filter: blur(10px);
+}
+.testimonia-2 h2{
+  color: rgb(194, 89, 40);
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+#costomer-indicator{
+  position: absolute !important;
+  bottom: 35%;
+}
+.comment{
+  width: 100%;
+}
+.gallery{
+  column-count: 3 !important;
+}
+}
+
+
+
+
+
+@media (max-width:620px){
+  .category-img{
+    display: none;
+  }
+  .description{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .team h1{
+    font-size: 40px;
+  }
+  .team-box{
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 20px 0 20px 0;
+  }
+  .team-members{
+    position: absolute;
+    left: -30px;
+    top: -50px;
+    width: 100px;
+    height: 100px;
+  }
+  .team-members img{
+    border-radius: 50%;
+  }
+  .about-members{
+    width: 80%;
+    height: auto;
+    padding: 30px 0 0 10px;
+  }
+  .team-box br{
+    display: none;
+  }
+
+  #costomer-indicator{
+    display: none;
+  }
+  .gallery{
+    column-count: 3 !important;
+}
+}
+
+
+
+
+
+
+
+
+@media (max-width:595px){
+  .hero{
+    height: 750;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-text{
+    justify-content: center;
+}
+  .img-blur{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  .hero-text-box{
+    width: 90%;
+    height: 90%;
+    margin: 0;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(8px);
+  }
+  .ps-logo{
+    display: none;
+  }
+  
+.hero-text-box span{
+  color: rgb(47, 19, 7);
+}
+  .hero-text{
+    width: 100%;
+    height: 100%;
+  }
+  .hero-box-2{
+    width: 100%;
+    height: 100%;
+  }
+  .hero-box{
+    width: 100%;
+    height: 100%;
+  }
+
+  .btn1{
+    bottom: 20px;
+    left: 10px;
+}
+
+.btn2{
+    bottom: 20px;
+    left: auto;
+    right: 10px;
+}
+
+
+.offer{
+  width: 80%;
+}
+
+  .testimonia-2 h2{
+    color: rgb(194, 89, 40);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+  .costomer-box{
+    width: 85% !important;
+    height: 40%;
+    margin-bottom: 0px;
+}
+  .contact{
+    height: auto;
+  }
+  .contact-social{
+    width: 90%;
+  }
+
+  .newsletter-address{
+    width: 90%;
+    margin-top: 20px;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+}
+.newsletter{
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px 0 10px 0;
+}
+.newsletter button{
+  height: 35px;
+  width: 100px;
+}
+.newsletter input{
+  height: 200px !important;
+}
+.our-Courses{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  padding: 30px 0 0 0;
+}
+.list{
+  align-items: center;
+}
+.address{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gallery{
+  column-count:2 !important;
+}
+}
+
+
+@media (max-width: 450px){
+  .gallery{
+    flex-wrap: wrap;
+}
+
+.hero-text-box h1{
+  font-size: 30px;
+}
+
+.costomer-box{
+  height: auto;
+  padding: 30px 0 30px 0;
+}
+.comment{
+  padding: 30px 3px 30px 3px;
+  border-radius: 0;
+  align-items: center;
+}
+.testimonia-2 h2{
+  font-size: 1rem;
+}
+.btn3,
+.btn4{
+    width: 50px;
+    height: 25px;
+}
+.control{
+  position: absolute;
+  width: 110px;
+  bottom: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-social{
+  flex-direction: column;
+  width: 75%;
+  height: 50px;
+}
+.email-input{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0 !important;
+  color: #223;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email-input input{
+  width: 80%;
+  height: 50px !important;
+}
+.email-input button{
+  width: 20%;
+}
+
+.contact-social-box{
+  width: 50%;
+  margin-top: 8px;
+  justify-content: space-between;
+}
+.gallery{
+  column-count: 1 !important;
+}
+}
+
+@media (max-width: 233){
+  .gallery{
+    column-count: 1;
+}
+  
+}
